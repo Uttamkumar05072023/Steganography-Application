@@ -9,6 +9,7 @@ class Main(CTk):
         self.title("Image Steganography")
         self.geometry("700x440")
         self.resizable(False,False)
+        self.iconbitmap("icon.ico")
         self.configure(fg_color="gray")
         CTkLabel(self,text="Hide Text In Image",font=CTkFont(family="sans-serif",size=40,weight="bold",slant="italic",underline=True),text_color="white").pack(pady=10)
         ImageFrame = CTkFrame(self,height=300,width=300,corner_radius=10,border_width=5,border_color="black",fg_color='white')
